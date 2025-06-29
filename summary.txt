@@ -1,0 +1,7 @@
+# Summary
+
+- Netflix has more Movies than TV Shows.
+- Content additions peaked in 2019–2020.
+- The United States contributes the most content, followed by India and the UK.
+- The most popular genre is "INternational_movies", followed by "Dramas" and "comedy".
+
