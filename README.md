@@ -51,10 +51,14 @@ Here are some of the core analyses performed:
    git clone https://github.com/404dipin/Netflix_Data_Analysis.git
    cd Netflix_Data_Analysis
 2.Install required Libraries
-    pip install pandas matplotlib numpy
+  ```bash
+pip install Pandas Matplotlib Numpy
+```
 
 3.Run the Analysis
-     python Data_findings.py
+  ```bash
+python data_findings.py
+```
 
 Make sure to keep netflix_titles.csv in the same directory as the script.
 
