@@ -1,51 +1,61 @@
-##Netflix_Data_Analysis.
-welcome to the Netflix_Data_Analysis Project !!!!
-This project explores and visualizes the Netflix dataset to uncover insights about the types of contents available, their trends over years, popular genres, and more.
+# 📺 Netflix Data Analysis
 
-##Overview
-The goal of this project is to analyze Netflix's content library using python and derived insights through Data visualization. These analysis helps answer questions like :
-1.Number of mmovies and TV shows available in Netflix.
-2.what are the most popular genres i=on the platform.
-3.Top contries contributing contents.
-4.Content added per year.
+Welcome to the **Netflix Data Analysis** project!  
+This project explores and visualizes the Netflix dataset to uncover insights about the types of content available, their trends over the years, popular genres, and more.
 
-##Dataset
-**Source**: [Netflix Titles Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows) 
-**files Used **
-netflix_titles.csv :main dataset containing all shows and movie records
+---
 
-......
+## 📌 Overview
 
-#Tools and Technology
-Tools and purpose:                         
-1.**Python** :Main programming language
-2.**Pandas**:Data cleaning and manipulation
-3.**Matplotlib**:Data visualization
-4.**Numpy**:Numerical operations.
+The goal of this project is to analyze Netflix’s content library using Python and derive insights through data visualization. This analysis helps answer questions like:
+- How many movies and TV shows are on Netflix?
+- What are the most popular genres on the platform?
+- How has the content distribution evolved over time?
+
+---
+
+## 📁 Dataset
+
+- **Source**: [Netflix Titles Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows)  
+- **Files used**:  
+  - `netflix_titles.csv` – Main dataset containing all show and movie records
+
+---
+
+## 🛠️ Tools & Technologies
+
+| Tool | Purpose |
+|------|---------|
+| **Python** | Main programming language |
+| **Pandas** | Data cleaning and manipulation |
+| **Matplotlib & Seaborn** | Data visualization |
+| **NumPy** | Numerical operations |
+
+---
+
+## 📊 Key Insights & Visualizations
+
+Here are some of the core analyses performed:
+
+- 📌 **Movies vs TV Shows Distribution**
+- 📈 **Content added per year**
+- 🌍 **Top countries contributing content**
+- 🎭 **Most common genres**
+- ⏳ **Content duration patterns**
 
 
-........
+## 🧑‍💻 How to Run the Code
 
-##Key Insights and Visualizations
- some of the core analysis performed are:
-- **Movies vs TV shows**
-- **Contents added per year**
-- **Top countries contributing contents**
-- **Most common genres**
-
-  ............
-
-  ##How to run the code
-1.  clone the repository
+1. Clone the repository  
+   ```bash
    git clone https://github.com/404dipin/Netflix_Data_Analysis.git
-   cd Netflix_Data_Analysis.
+   cd Netflix_Data_Analysis
+2.Install required Libraries
+    pip install pandas matplotlib numpy
 
-  2.Install required Libraries
-  pip install matplotlib pandas numpy
+3.Run the Analysis
+     python Data_findings.py
 
-  3.Run the analysis 
-  python Data_findings.py
+Make sure to keep netflix_titles.csv in the same directory as the script.
 
-  Make sure to keep netflix_titles.csv in the same directory.
- 
 
